@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Datasets (Large files)
+*.jsonl
+!test_*.jsonl
+
+# Model Checkpoints and Outputs
+qwen2-7b-mind2web/
+qwen2-0.5b-cpu-test/
+output/
+checkpoint-*/
+runs/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+.scratch/
+scratch/
