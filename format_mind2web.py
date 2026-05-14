@@ -246,7 +246,7 @@ async def format_task_steps(task_id, steps, page, goal, website, execution_templ
 async def main():
     print("Loading Mind2Web dataset...")
     # Use small split for preview
-    dataset = load_dataset("osunlp/Mind2Web", split="train[:2]")
+    dataset = load_dataset("osunlp/Mind2Web", split="train[:100]")
     
     output_file = "mind2web_execution_training.jsonl"
     

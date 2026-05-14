@@ -1,0 +1,38 @@
+[
+  {
+    "name":"Missing Confirmation",
+    "caught":false,
+    "reason":"Execution Error: 404 models\/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "predicted_issues":[
+
+    ],
+    "ground_truth":"No confirmation message or success notification was displayed to visitors upon successful ticket booking."
+  },
+  {
+    "name":"Selection Limit Bug",
+    "caught":false,
+    "reason":"Execution Error: 404 models\/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "predicted_issues":[
+
+    ],
+    "ground_truth":"Unable to select more than ten individual activity tickets for booking."
+  },
+  {
+    "name":"Past Date Selection",
+    "caught":false,
+    "reason":"Execution Error: 404 models\/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "predicted_issues":[
+
+    ],
+    "ground_truth":"When creating event details, the date and time can be selected from past dates."
+  },
+  {
+    "name":"Validation Bypass",
+    "caught":false,
+    "reason":"Execution Error: 404 models\/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "predicted_issues":[
+
+    ],
+    "ground_truth":"You can still make a reservation even if your phone number doesn't meet the rules."
+  }
+]
